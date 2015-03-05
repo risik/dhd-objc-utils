@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "CommonCrypto"
+  # s.framework  = "CommonCrypto"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  # s.library   = "iconv"
+  s.library   = "commonCrypto"
   # s.libraries = "iconv", "xml2"
 
 
