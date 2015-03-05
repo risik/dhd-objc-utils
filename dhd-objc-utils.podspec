@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "dhd-objc-utils"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Useful utils for the various Objective C based projects."
 
   s.description  = <<-DESC
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/risik/dhd-objc-utils.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/risik/dhd-objc-utils.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   # s.framework  = "CommonCrypto"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  s.library   = "commonCrypto"
+  # s.library   = "commonCrypto"
   # s.libraries = "iconv", "xml2"
 
 
